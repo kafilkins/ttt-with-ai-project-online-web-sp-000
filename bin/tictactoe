@@ -2,5 +2,5 @@
 require 'pry'
 require_relative '../config/environment'
 
-Tictactoe.new
+Game.new
 start until gets.strip == "n"
