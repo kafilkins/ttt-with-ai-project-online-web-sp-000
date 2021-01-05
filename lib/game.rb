@@ -83,6 +83,6 @@ class Game
 
       puts "Would you like to play again? [y/n]"
     end
-    
+
 end
 start until gets.strip == "n"
