@@ -2,9 +2,10 @@
 require 'pry'
 require_relative '../config/environment'
 
+puts "Welcome to my TicTacToe game!"
+puts "What kind of game would you like to play?
+
 def start
-  puts "Welcome to my TicTacToe game!"
-  puts "What kind of game would you like to play?
         \n0 - CPU v CPU
         \n1 - You v CPU
         \n2 - You v Opp"
