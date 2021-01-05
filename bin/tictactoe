@@ -6,8 +6,8 @@ def start
   puts "Welcome to my TicTacToe game!"
   puts "What kind of game would you like to play?
         \n1 - CPU v CPU
-        \n2 - You v CPU
-        \n3 - You v Opp"
+        \n2 - YOU v CPU
+        \n3 - YOU v OPP"
 
   game_mode = gets.strip
 
