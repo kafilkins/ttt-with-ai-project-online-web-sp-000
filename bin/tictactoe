@@ -3,4 +3,4 @@ require 'pry'
 require_relative '../config/environment'
 
 Game.new
-start until gets.strip == "n"
+
