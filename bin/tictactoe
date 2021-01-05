@@ -5,9 +5,9 @@ require_relative '../config/environment'
 def start
   puts "Welcome to my TicTacToe game!"
   puts "What kind of game would you like to play?
-        \n0 - CPU v CPU
-        \n1 - You v CPU
-        \n2 - You v Opp"
+        \n1 - CPU v CPU
+        \n2 - You v CPU
+        \n3 - You v Opp"
 
   game_mode = gets.strip
 
